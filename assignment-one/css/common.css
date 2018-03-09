@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'bebasneue-regular';
+  src: url('../fonts/bebasneue-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/bebasneue-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/bebasneue-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/bebasneue-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/bebasneue-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/bebasneue-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+
+.clr{
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+}
+
+.img_responsive{
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+body{
+	background: url('../img/new-york-background.jpg') no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+
+ul li{
+	/* display: inline-block; */
+	position: relative;
+}
+
+.content{
+	padding: 30px;
+	width: 700px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #fff;
+	font-family: 'bebasneue-regular';
+}
+
